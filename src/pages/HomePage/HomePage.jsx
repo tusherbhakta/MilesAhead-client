@@ -17,7 +17,7 @@ const HomePage = () => {
       </Helmet>
       {/* <Banner /> */}
       <CarouselComp />
-      <RunningMarathons />
+      {/* <RunningMarathons /> */}
       <UpcomingMarathons />
       <HowItWorks />
       <OurMission />
