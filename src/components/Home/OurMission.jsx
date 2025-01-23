@@ -38,7 +38,7 @@ const OurMission = () => {
             />
           </p>
           <p className="mt-4 text-gray-600 dark:text-gray-300 text-justify">
-            At SprintSpace, we believe in the transformative power of marathons.
+            At MilesAhead, we believe in the transformative power of marathons.
             Our mission is to promote health, inspire community spirit, and
             support meaningful causes through running. Whether you're a seasoned
             runner or a first-time participant, every step you take brings us closer

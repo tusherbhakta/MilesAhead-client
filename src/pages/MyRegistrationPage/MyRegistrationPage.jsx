@@ -147,7 +147,7 @@ const MyRegistrationPage = () => {
   return (
     <div className="py-10 bg-gray-50 dark:bg-gray-900">
       <Helmet>
-        <title>SprintSpace | My Registrations</title>
+        <title>MilesAhead | My Registrations</title>
       </Helmet>
       <div className="max-w-7xl mx-auto px-4">
         <div className="mb-10">

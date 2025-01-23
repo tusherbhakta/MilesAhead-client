@@ -49,7 +49,7 @@ const AllMarathonsPage = () => {
   return (
     <div className="pt-10 pb-16 px-4 max-w-7xl mx-auto">
       <Helmet>
-        <title>SprintSpace | All Marathons</title>
+        <title>MilesAhead | All Marathons</title>
       </Helmet>
       <div>
         <SectionTitle title="All Marathons" subtitle="Explore and support the active campaigns." />

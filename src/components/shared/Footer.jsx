@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-6 lg:px-12">
         {/* About Section */}
         <div>
-          <h2 className="text-2xl font-bold text-purple-400 mb-4">SprintSpace</h2>
+          <h2 className="text-2xl font-bold text-purple-400 mb-4">MilesAhead</h2>
           <p className="text-gray-400 mb-6 text-justify">
             Join us in celebrating fitness, endurance, and community. Whether you're running to beat your personal best or to support a meaningful cause, every step matters. Let’s cross the finish line together!
           </p>
@@ -99,7 +99,7 @@ const Footer = () => {
       {/* Footer Bottom */}
       <div className="border-t border-gray-700 mt-10 py-4">
         <div className="container mx-auto flex justify-between items-center px-6 lg:px-12">
-          <p className="text-sm text-gray-400">© 2025 SprintSpace. All rights reserved.</p>
+          <p className="text-sm text-gray-400">© 2025 MilesAhead. All rights reserved.</p>
           <nav className="flex space-x-4">
             <a href="/privacy-policy" className="text-gray-400 hover:text-purple-400">
               Privacy Policy

@@ -38,11 +38,11 @@ const NewsletterFAQ = () => {
                         <div className="collapse collapse-plus bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg shadow-lg mb-4">
                             <input type="checkbox" className="peer" />
                             <div className="collapse-title text-lg font-semibold text-gray-800 dark:text-white">
-                                What is SprintSpace?
+                                What is MilesAhead?
                             </div>
                             <div className="collapse-content text-gray-600 dark:text-gray-300">
                                 <p>
-                                    SprintSpace is a platform designed to inspire and connect runners, promote fitness, and organize exciting marathons for all levels.
+                                    MilesAhead is a platform designed to inspire and connect runners, promote fitness, and organize exciting marathons for all levels.
                                 </p>
                             </div>
                         </div>

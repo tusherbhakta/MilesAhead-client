@@ -73,7 +73,7 @@ const AddMarathonPage = () => {
   return (
     <div className="dark:bg-gray-900 min-h-screen px-2">
       <Helmet>
-        <title>SprintSpace | Add Marathon</title>
+        <title>MilesAhead | Add Marathon</title>
       </Helmet>
       <div className="max-w-4xl mx-auto mt-10 px-4 py-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
         <SectionTitle

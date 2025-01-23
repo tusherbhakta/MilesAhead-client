@@ -106,7 +106,7 @@ const MyEventsPage = () => {
   return (
     <div className="py-10">
       <Helmet>
-        <title>SprintSpace | My Marathons</title>
+        <title>MilesAhead | My Marathons</title>
       </Helmet>
       <div className="max-w-[1600px] mx-auto px-4">
         <div className="mb-10">

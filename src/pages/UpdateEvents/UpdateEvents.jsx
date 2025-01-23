@@ -90,7 +90,7 @@ const UpdateEvents = () => {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col items-center justify-center py-10 px-4">
       <Helmet>
-        <title>SprintSpace | Update Marathon</title>
+        <title>MilesAhead | Update Marathon</title>
       </Helmet>
       <h1 className="text-3xl font-bold text-purple-600 dark:text-purple-400 text-center mb-8">
         Update Marathon

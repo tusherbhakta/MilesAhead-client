@@ -122,7 +122,7 @@ const Header = () => {
               <img className="w-12 h-12 hidden md:block rounded-full border-2 border-purple-500" src={logo} alt="" />
             </span>
             <span className="text-purple-700 dark:text-purple-500 italic">
-              SprintSpace
+              MilesAhead
             </span>
           </h2>
         </div>

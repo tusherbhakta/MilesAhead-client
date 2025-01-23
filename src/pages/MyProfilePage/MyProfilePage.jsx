@@ -47,7 +47,7 @@ const MyProfilePage = () => {
     style={{ backgroundImage: `url(${bgImg})` }}
     >
       <Helmet>
-        <title>SprintSpace | My Profile</title>
+        <title>MilesAhead | My Profile</title>
       </Helmet>
 
       {/* Profile Card */}

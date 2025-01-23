@@ -11,7 +11,7 @@ const Banner = () => {
                 <div className=" max-w-2xl">
                     <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
                         Empower Dreams with{" "}
-                        <span className="dark:text-purple-400 text-purple-600">SprintSpace</span>
+                        <span className="dark:text-purple-400 text-purple-600">MilesAhead</span>
                     </h1>
                     <div className="mt-4 text-2xl lg:text-3xl font-medium text-gray-700 dark:text-gray-300">
                         <Typewriter
