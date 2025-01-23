@@ -72,7 +72,7 @@ const WhyJoinMarathon = () => {
   ];
 
   return (
-    <section className="bg-gradient-to-r from-blue-50 to-blue-100 dark:from-gray-800 dark:to-gray-900 py-16 mt-12">
+    <section className="bg-gradient-to-r from-lime-50 to-lime-100 dark:from-gray-800 dark:to-gray-900 py-16 mt-12">
       <div className="max-w-6xl mx-auto px-6 md:px-8">
         <SectionTitle 
           title="Why Join a Marathon?" 
