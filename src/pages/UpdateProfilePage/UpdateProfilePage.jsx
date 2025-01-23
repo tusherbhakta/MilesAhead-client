@@ -57,7 +57,7 @@ const UpdateProfilePage = () => {
                 {message.text && (
                     <p
                         className={`text-sm mb-3 ${
-                            message.type === "error" ? "text-red-500" : "text-green-500"
+                            message.type === "error" ? "text-red-500" : "text-lime-500"
                         }`}
                     >
                         {message.text}

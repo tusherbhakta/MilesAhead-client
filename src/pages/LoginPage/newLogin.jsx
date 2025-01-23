@@ -66,7 +66,7 @@ const LoginPage = () => {
             <div className="w-full max-w-md p-8 space-y-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
                 {user ? (
                     <div className="">
-                        <div className="p-4 text-center text-green-600 bg-green-100 rounded-md flex flex-col justify-center items-center gap-2">
+                        <div className="p-4 text-center text-lime-600 bg-lime-100 rounded-md flex flex-col justify-center items-center gap-2">
                             <img src={user.photoURL} alt="Avatar" className="w-20 h-20 object-cover rounded-full border-2 border-red-500" />
                             <p className="text-gray-800 dark:text-white">Logged in successfully! {user.displayName || user.email}</p>
                         </div>
@@ -125,7 +125,7 @@ const LoginPage = () => {
                             </button>
                             <button
                                 onClick={() => handleGoogleSignIn()}
-                                className="w-full flex justify-center items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-green-500 rounded-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                                className="w-full flex justify-center items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-lime-500 rounded-md hover:bg-lime-600 focus:outline-none focus:ring-2 focus:ring-blue-400"
                             >
                                 <FaGoogle />
                                 <p className="text-gray-800 dark:text-white">Login with Google</p>

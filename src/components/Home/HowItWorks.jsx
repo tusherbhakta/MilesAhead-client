@@ -30,7 +30,7 @@
 //           {benefits.map((benefit, index) => (
 //             <div
 //               key={index}
-//               className="bg-purple-100 border border-purple-800 dark:bg-gray-800 rounded-lg shadow-md p-6 text-center"
+//               className="bg-lime-100 border border-lime-800 dark:bg-gray-800 rounded-lg shadow-md p-6 text-center"
 //             >
 //               <div className="text-4xl mb-4">{benefit.icon}</div>
 //               <h3 className="text-xl font-semibold dark:text-white mb-2">

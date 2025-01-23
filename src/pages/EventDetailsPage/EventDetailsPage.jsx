@@ -67,7 +67,7 @@ const EventDetailsPage = () => {
               isPlaying
               duration={remainingTime} // Duration in seconds
               colors={[
-                ["#4CAF50", 0.5], // Green for the first 50% of time
+                ["#4CAF50", 0.5], // lime for the first 50% of time
                 ["#F7B801", 0.3], // Yellow for the next 30% of time
                 ["#A30000", 0.2], // Red for the remaining 20% of time
               ]}

@@ -68,7 +68,7 @@ const CarouselComp = () => {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link
                     to={banner.linkPrimary.path}
-                    className="px-6 py-3 bg-purple-600 hover:bg-purple-500 text-white font-bold rounded shadow-lg transition-all"
+                    className="px-6 py-3 bg-lime-600 hover:bg-lime-500 text-white font-bold rounded shadow-lg transition-all"
                   >
                     {banner.linkPrimary.text}
                   </Link>

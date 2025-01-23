@@ -48,7 +48,7 @@ const PrivacyPolicy = () => {
                         information. To exercise these rights, please contact us at
                         <a
                             href="mailto:support@MilesAhead.com"
-                            className="text-purple-500 hover:text-purple-400"
+                            className="text-lime-500 hover:text-lime-400"
                         >
                             {" "}
                             support@MilesAhead.com
@@ -69,7 +69,7 @@ const PrivacyPolicy = () => {
                         us at{" "}
                         <a
                             href="mailto:support@MilesAhead.com"
-                            className="text-purple-500 hover:text-purple-400"
+                            className="text-lime-500 hover:text-lime-400"
                         >
                             support@MilesAhead.com
                         </a>

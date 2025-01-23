@@ -92,7 +92,7 @@ const UpdateEvents = () => {
       <Helmet>
         <title>MilesAhead | Update Marathon</title>
       </Helmet>
-      <h1 className="text-3xl font-bold text-purple-600 dark:text-purple-400 text-center mb-8">
+      <h1 className="text-3xl font-bold text-lime-600 dark:text-lime-400 text-center mb-8">
         Update Marathon
       </h1>
       <div className="w-full max-w-3xl bg-white dark:bg-gray-800 rounded-lg shadow-lg p-4 sm:p-10">
@@ -108,7 +108,7 @@ const UpdateEvents = () => {
                 id="title"
                 value={formData.title}
                 onChange={handleChange}
-                className="block w-full mt-1 px-4 py-2 border rounded-lg text-gray-700 dark:text-white focus:ring focus:ring-purple-300 dark:bg-gray-600 focus:outline-none"
+                className="block w-full mt-1 px-4 py-2 border rounded-lg text-gray-700 dark:text-white focus:ring focus:ring-lime-300 dark:bg-gray-600 focus:outline-none"
                 placeholder="Enter Marathon title"
               />
             </div>
@@ -125,7 +125,7 @@ const UpdateEvents = () => {
                 value={formData.description}
                 onChange={handleChange}
                 rows="4"
-                className="block w-full mt-1 px-4 py-2 border rounded-lg text-gray-700 dark:text-white focus:ring focus:ring-purple-300 dark:bg-gray-600 focus:outline-none"
+                className="block w-full mt-1 px-4 py-2 border rounded-lg text-gray-700 dark:text-white focus:ring focus:ring-lime-300 dark:bg-gray-600 focus:outline-none"
                 placeholder="Enter Marathon description"
               ></textarea>
             </div>
@@ -145,7 +145,7 @@ const UpdateEvents = () => {
                   id="startRegistrationDate"
                   value={new Date(formData.startRegistrationDate).toISOString().split("T")[0]}
                   onChange={handleChange}
-                  className="block w-full mt-1 px-4 py-2 border rounded-lg text-gray-700 dark:text-white focus:ring focus:ring-purple-300 dark:bg-gray-600 focus:outline-none"
+                  className="block w-full mt-1 px-4 py-2 border rounded-lg text-gray-700 dark:text-white focus:ring focus:ring-lime-300 dark:bg-gray-600 focus:outline-none"
                 />
               </div>
               <div>
@@ -161,7 +161,7 @@ const UpdateEvents = () => {
                   id="endRegistrationDate"
                   value={new Date(formData.endRegistrationDate).toISOString().split("T")[0]}
                   onChange={handleChange}
-                  className="block w-full mt-1 px-4 py-2 border rounded-lg text-gray-700 dark:text-white focus:ring focus:ring-purple-300 dark:bg-gray-600 focus:outline-none"
+                  className="block w-full mt-1 px-4 py-2 border rounded-lg text-gray-700 dark:text-white focus:ring focus:ring-lime-300 dark:bg-gray-600 focus:outline-none"
                 />
               </div>
               <div>
@@ -177,7 +177,7 @@ const UpdateEvents = () => {
                   id="marathonStartDate"
                   value={new Date(formData.marathonStartDate).toISOString().split("T")[0]}
                   onChange={handleChange}
-                  className="block w-full mt-1 px-4 py-2 border rounded-lg text-gray-700 dark:text-white focus:ring focus:ring-purple-300 dark:bg-gray-600 focus:outline-none"
+                  className="block w-full mt-1 px-4 py-2 border rounded-lg text-gray-700 dark:text-white focus:ring focus:ring-lime-300 dark:bg-gray-600 focus:outline-none"
                 />
               </div>
               <div>
@@ -193,7 +193,7 @@ const UpdateEvents = () => {
                   id="location"
                   value={formData.location}
                   onChange={handleChange}
-                  className="block w-full mt-1 px-4 py-2 border rounded-lg text-gray-700 dark:text-white focus:ring focus:ring-purple-300 dark:bg-gray-600 focus:outline-none"
+                  className="block w-full mt-1 px-4 py-2 border rounded-lg text-gray-700 dark:text-white focus:ring focus:ring-lime-300 dark:bg-gray-600 focus:outline-none"
                   placeholder="Enter location"
                 />
               </div>
@@ -209,7 +209,7 @@ const UpdateEvents = () => {
                   id="runningDistance"
                   value={formData.runningDistance}
                   onChange={handleChange}
-                  className="block w-full mt-1 px-4 py-2 border rounded-lg text-gray-700 dark:text-white focus:ring focus:ring-purple-300 dark:bg-gray-600 focus:outline-none"
+                  className="block w-full mt-1 px-4 py-2 border rounded-lg text-gray-700 dark:text-white focus:ring focus:ring-lime-300 dark:bg-gray-600 focus:outline-none"
                 >
                   <option value="3 KM">3 KM</option>
                   <option value="10 KM">10 KM</option>
@@ -227,7 +227,7 @@ const UpdateEvents = () => {
                 id="image"
                 value={formData.image}
                 onChange={handleChange}
-                className="block w-full mt-1 px-4 py-2 border rounded-lg text-gray-700 dark:text-white focus:ring focus:ring-purple-300 dark:bg-gray-600 focus:outline-none"
+                className="block w-full mt-1 px-4 py-2 border rounded-lg text-gray-700 dark:text-white focus:ring focus:ring-lime-300 dark:bg-gray-600 focus:outline-none"
                 placeholder="Enter image URL"
               />
             </div>
@@ -235,7 +235,7 @@ const UpdateEvents = () => {
           <div className="flex justify-end">
             <button
               type="submit"
-              className="px-6 py-2 bg-purple-600 text-white rounded-lg shadow-md hover:bg-purple-700 focus:ring focus:ring-purple-300 focus:outline-none"
+              className="px-6 py-2 bg-lime-600 text-white rounded-lg shadow-md hover:bg-lime-700 focus:ring focus:ring-lime-300 focus:outline-none"
             >
               Update Marathon
             </button>

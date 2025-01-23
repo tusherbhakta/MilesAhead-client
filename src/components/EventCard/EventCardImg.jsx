@@ -26,7 +26,7 @@
 //                             {/* Registration Status Badge */}
 //                             {/* <span
 //                                 className={`absolute top-4 left-4 px-3 py-1 text-xs font-semibold uppercase rounded-full shadow-lg ${isRegistrationOpen
-//                                     ? "bg-green-500 text-white animate-pulse"
+//                                     ? "bg-lime-500 text-white animate-pulse"
 //                                     : "bg-red-500 text-white"
 //                                     }`}
 //                             >
@@ -36,7 +36,7 @@
 
 //                         {/* Title Section */}
 //                         <div className="p-4 text-center bg-gray-50 dark:bg-gray-800">
-//                             <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 truncate group-hover:text-purple-600 transition-colors duration-300">
+//                             <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 truncate group-hover:text-lime-600 transition-colors duration-300">
 //                                 {marathon.title}
 //                             </h3>
 //                         </div>
@@ -57,7 +57,7 @@
 //                                         Start Date: {format(new Date(marathon.marathonStartDate), "MMMM dd, yyyy")}
 //                                     </p>
 //                                     <p className="flex items-center gap-2 text-sm">
-//                                         <BiCategory className="text-purple-400 text-lg" />
+//                                         <BiCategory className="text-lime-400 text-lg" />
 //                                         Distance: {marathon.runningDistance}
 //                                     </p>
 //                                     <p className="flex items-center gap-2 text-sm">
@@ -102,7 +102,7 @@
 
 //                         {/* Title Section */}
 //                         <div className="p-4 bg-gray-100 dark:bg-gray-800 text-center">
-//                             <h3 className="text-lg font-bold text-gray-800 dark:text-white truncate group-hover:text-purple-500 transition-colors duration-300">
+//                             <h3 className="text-lg font-bold text-gray-800 dark:text-white truncate group-hover:text-lime-500 transition-colors duration-300">
 //                                 {marathon.title}
 //                             </h3>
 //                         </div>
@@ -123,11 +123,11 @@
 //                                         <span>Start Date: {format(new Date(marathon.marathonStartDate), "MMMM dd, yyyy")}</span>
 //                                     </p>
 //                                     <p className="flex items-center gap-2 text-sm">
-//                                         <BiCategory className="text-purple-400 text-lg" />
+//                                         <BiCategory className="text-lime-400 text-lg" />
 //                                         <span>Distance: {marathon.runningDistance}</span>
 //                                     </p>
 //                                     <p className="flex items-center gap-2 text-sm">
-//                                         <AiOutlineDollarCircle className="text-green-400 text-lg" />
+//                                         <AiOutlineDollarCircle className="text-lime-400 text-lg" />
 //                                         <span>Total Registrations: {marathon.totalRegistrationCount}</span>
 //                                     </p>
 //                                 </div>
@@ -136,7 +136,7 @@
 //                             <div className="mt-4 text-center">
 //                                 <Link
 //                                     to={`/marathon/${marathon._id}`}
-//                                     className="inline-block px-6 py-2 bg-purple-600 text-white text-sm font-medium rounded-full shadow-lg hover:bg-purple-700 transition-colors"
+//                                     className="inline-block px-6 py-2 bg-lime-600 text-white text-sm font-medium rounded-full shadow-lg hover:bg-lime-700 transition-colors"
 //                                 >
 //                                     View Details
 //                                 </Link>
@@ -178,7 +178,7 @@ const EventCardImg = ({ marathons }) => {
 
                         {/* Title Section */}
                         <div className="p-4 bg-gray-100 dark:bg-gray-800 text-center">
-                            <h3 className="text-lg font-bold text-gray-800 dark:text-white truncate group-hover:text-purple-500 transition-colors duration-300">
+                            <h3 className="text-lg font-bold text-gray-800 dark:text-white truncate group-hover:text-lime-500 transition-colors duration-300">
                                 {marathon.title}
                             </h3>
                         </div>
@@ -199,11 +199,11 @@ const EventCardImg = ({ marathons }) => {
                                         <span>Start Date: {format(new Date(marathon.marathonStartDate), "MMMM dd, yyyy")}</span>
                                     </p>
                                     <p className="flex items-center gap-2 text-sm">
-                                        <BiCategory className="text-purple-400 text-lg" />
+                                        <BiCategory className="text-lime-400 text-lg" />
                                         <span>Distance: {marathon.runningDistance}</span>
                                     </p>
                                     <p className="flex items-center gap-2 text-sm">
-                                        <AiOutlineDollarCircle className="text-green-400 text-lg" />
+                                        <AiOutlineDollarCircle className="text-lime-400 text-lg" />
                                         <span>Total Registrations: {marathon.totalRegistrationCount}</span>
                                     </p>
                                 </div>

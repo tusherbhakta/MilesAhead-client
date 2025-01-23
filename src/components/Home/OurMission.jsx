@@ -53,7 +53,7 @@
 //           <div className="mt-6">
 //             <Link
 //               to={'/marathons'}
-//               className="px-6 py-2 text-md font-semibold text-white bg-purple-600 hover:bg-purple-700 rounded-lg shadow-lg transition-transform transform focus:ring-4 focus:ring-purple-400 focus:outline-none"
+//               className="px-6 py-2 text-md font-semibold text-white bg-lime-600 hover:bg-lime-700 rounded-lg shadow-lg transition-transform transform focus:ring-4 focus:ring-lime-400 focus:outline-none"
 //             >
 //               Explore Marathons
 //             </Link>
@@ -75,7 +75,7 @@ import { Link } from "react-router-dom";
 
 const OurMission = () => {
   return (
-    <section className="py-16 px-6 bg-gradient-to-r from-purple-50 via-purple-100 to-purple-50 dark:from-gray-800 dark:via-gray-900 dark:to-gray-800">
+    <section className="py-16 px-6 bg-gradient-to-r from-lime-50 via-lime-100 to-lime-50 dark:from-gray-800 dark:via-gray-900 dark:to-gray-800">
       <SectionTitle
         title={"Our Mission"}
         subtitle="Unite, Inspire, and Achieve Greatness Through Running"
@@ -84,11 +84,11 @@ const OurMission = () => {
         <div className="flex justify-center">
           <div className="w-full max-w-lg relative">
             <img src={run} alt="Runner" className="rounded-xl shadow-lg transform hover:scale-105 transition duration-500" />
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-purple-200 dark:to-gray-900 opacity-40 rounded-xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-lime-200 dark:to-gray-900 opacity-40 rounded-xl"></div>
           </div>
         </div>
         <div className="max-w-xl mx-auto lg:mx-0">
-          <h3 className="text-4xl font-bold text-purple-800 dark:text-purple-400 mb-4">
+          <h3 className="text-4xl font-bold text-lime-800 dark:text-lime-400 mb-4">
             Run for a Cause, Run for Yourself
           </h3>
           <p className="mt-4 text-xl font-medium text-gray-700 dark:text-gray-300">
@@ -122,7 +122,7 @@ const OurMission = () => {
           <div className="mt-8 flex justify-start">
             <Link
               to={'/marathons'}
-              className="px-8 py-3 text-lg font-semibold text-white bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 rounded-lg shadow-md transition-transform transform hover:scale-105 focus:ring-4 focus:ring-purple-400 focus:outline-none"
+              className="px-8 py-3 text-lg font-semibold text-white bg-gradient-to-r from-lime-600 to-lime-700 hover:from-lime-700 hover:to-lime-800 rounded-lg shadow-md transition-transform transform hover:scale-105 focus:ring-4 focus:ring-lime-400 focus:outline-none"
             >
               Explore Marathons
             </Link>

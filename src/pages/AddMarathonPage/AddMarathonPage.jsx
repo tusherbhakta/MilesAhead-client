@@ -191,7 +191,7 @@ const AddMarathonPage = () => {
           {/* Submit Button */}
           <button
             type="submit"
-            className="w-full py-2 px-4 bg-purple-600 dark:bg-purple-500 text-white font-bold rounded-lg hover:bg-blue-700 dark:hover:bg-purple-600 focus:outline-none"
+            className="w-full py-2 px-4 bg-lime-600 dark:bg-lime-500 text-white font-bold rounded-lg hover:bg-blue-700 dark:hover:bg-lime-600 focus:outline-none"
           >
             Add Marathon
           </button>

@@ -26,7 +26,7 @@ const EventCard = ({ marathons }) => {
                             {/* Registration Status Badge */}
                             <span
                                 className={`absolute top-4 right-4 px-4 py-1 text-xs font-semibold uppercase rounded-full shadow-lg ${isRegistrationOpen
-                                    ? "bg-green-500 text-white animate-pulse"
+                                    ? "bg-lime-500 text-white animate-pulse"
                                     : "bg-red-500 text-white"
                                     }`}
                             >
@@ -54,11 +54,11 @@ const EventCard = ({ marathons }) => {
                                     Start Date: {format(new Date(marathon.marathonStartDate), "MMMM dd, yyyy")}
                                 </p>
                                 <p className="flex items-center gap-2 text-sm font-medium text-gray-700 dark:text-gray-300">
-                                    <AiOutlineCalendar className="text-green-400 text-lg" />
+                                    <AiOutlineCalendar className="text-lime-400 text-lg" />
                                     Registration: {format(new Date(marathon.startRegistrationDate), "MMMM dd")} - {format(new Date(marathon.endRegistrationDate), "MMMM dd, yyyy")}
                                 </p>
                                 <p className="flex items-center gap-2 text-sm font-medium text-gray-700 dark:text-gray-300 capitalize">
-                                    <BiCategory className="text-purple-400 text-lg" />
+                                    <BiCategory className="text-lime-400 text-lg" />
                                     Distance: {marathon.runningDistance}
                                 </p>
                                 <p className="flex items-center gap-2 text-sm font-medium text-gray-700 dark:text-gray-300">
@@ -69,7 +69,7 @@ const EventCard = ({ marathons }) => {
                             {/* Learn More Button */}
                             <Link
                                 to={`/events/details/${marathon._id}`}
-                                className="mt-4 block w-full text-center bg-purple-600 text-white font-bold py-2 rounded-lg shadow-lg hover:bg-purple-700 transition-all duration-300"
+                                className="mt-4 block w-full text-center bg-lime-600 text-white font-bold py-2 rounded-lg shadow-lg hover:bg-lime-700 transition-all duration-300"
                             >
                                 Learn More
                             </Link>

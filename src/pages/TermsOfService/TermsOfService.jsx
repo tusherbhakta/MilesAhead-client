@@ -87,7 +87,7 @@ const TermsOfService = () => {
             contact us at{" "}
             <a
               href="mailto:support@MilesAhead.com"
-              className="text-purple-500 hover:text-purple-400"
+              className="text-lime-500 hover:text-lime-400"
             >
               support@MilesAhead.com
             </a>

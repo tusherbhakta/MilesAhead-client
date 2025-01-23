@@ -195,7 +195,7 @@ const RegisterPage = () => {
           </p>
       
           {errorMessage && <p className="text-sm text-red-500 dark:text-red-400">{errorMessage}</p>}
-          {success && <p className="text-sm text-green-500 dark:text-green-400">User registered successfully</p>}
+          {success && <p className="text-sm text-lime-500 dark:text-lime-400">User registered successfully</p>}
         </div>
       </div>
       
