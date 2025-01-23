@@ -119,7 +119,7 @@ const Header = () => {
             className="text-2xl xl:text-3xl font-extrabold cursor-pointer flex items-center gap-2 dark:text-gray-200"
           >
             <span>
-              <img className="w-12 h-12 hidden md:block rounded-full border-2 border-purple-500" src={logo} alt="" />
+              <img className="w-16 h-16 hidden md:block items-center" src={logo} alt="" />
             </span>
             <span className="text-purple-700 dark:text-purple-500 italic">
               MilesAhead
