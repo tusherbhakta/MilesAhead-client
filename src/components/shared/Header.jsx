@@ -137,7 +137,7 @@ const Header = () => {
               `px-3 py-2 text-xs md:text-sm lg:text-md font-semibold rounded ${isActive ? 'bg-lime-600 text-white' : 'bg-transparent dark:text-gray-200'}`
             }
           >
-            {user ? "My Profile" : "Register"}
+            {user ? "Dashboard" : "Register"}
           </NavLink>
           {user ? (
             <ProfileTooltip
