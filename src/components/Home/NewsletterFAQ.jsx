@@ -3,7 +3,7 @@ import SectionTitle from "../shared/SectionTitle";
 const NewsletterFAQ = () => {
 
     return (
-        <section className="py-20 px-6 bg-gradient-to-b from-lime-300 via-lime-200 to-lime-100 text-white dark:from-lime-950 dark:via-lime-800 dark:to-lime-700">
+        <section className="py-20 px-6 bg-gradient-to-b from-lime-300 via-lime-200 to-lime-100 text-white dark:from-gray-950 dark:via-gray-800 dark:to-gray-700">
             <div className="max-w-7xl mx-auto">
                 {/* Newsletter Section */}
                 <div className="text-center">
