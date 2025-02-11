@@ -20,6 +20,7 @@ import UpdateCampaigns from './pages/UpdateEvents/UpdateEvents'
 import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy'
 import TermsOfService from './pages/TermsOfService/TermsOfService'
 import axios from 'axios'
+import AboutUs from './pages/AboutUs/AboutUs'
 
 const apiBaseUrl = import.meta.env.VITE_API_BASE_URL;
 const router = createBrowserRouter([
@@ -100,6 +101,10 @@ const router = createBrowserRouter([
       {
         path: '/terms-of-service',
         element: <TermsOfService />
+      },
+      {
+        path: '/about',
+        element: <AboutUs/>
       }
     ]
   },

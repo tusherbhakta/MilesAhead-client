@@ -74,7 +74,17 @@ const Header = () => {
         >
           My Registrations
         </NavLink>
+        
       )}
+      <NavLink
+        to="/about"
+        className={({ isActive }) =>
+          `px-3 py-2 text-xs md:text-sm lg:text-md font-semibold rounded mr-2 ${isActive ? 'bg-lime-600 text-white' : 'bg-transparent dark:text-gray-200'}`
+        }
+        onClick={closeDropdown}
+      >
+        About Us
+      </NavLink>
     </>
   );
 
