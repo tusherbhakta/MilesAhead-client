@@ -71,11 +71,11 @@ const AddMarathonPage = () => {
   };
 
   return (
-    <div className="dark:bg-gray-900 min-h-screen px-2">
+    <div className="bg-gradient-to-tr from-lime-100 via-lime-200 to-lime-50 dark:from-gray-800 dark:via-gray-900 dark:to-gray-800 pb-10 min-h-screen px-2">
       <Helmet>
         <title>MilesAhead | Add Marathon</title>
       </Helmet>
-      <div className="max-w-4xl mx-auto mt-10 px-4 py-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+      <div className="max-w-4xl mx-auto mt-10 px-4 py-6  dark:bg-gray-800 rounded-lg ">
         <SectionTitle
           title="Add New Marathon"
           subtitle={`Welcome, ${user.displayName}!`}

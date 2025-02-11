@@ -47,40 +47,42 @@ const AllMarathonsPage = () => {
   };
 
   return (
-    <div className="pt-10 pb-16 px-4 max-w-7xl mx-auto">
-      <Helmet>
-        <title>MilesAhead | All Marathons</title>
-      </Helmet>
-      <div>
-        <SectionTitle title="All Marathons" subtitle="Explore and support the active campaigns." />
-        <div className="flex max-w-5xl mx-auto flex-col md:flex-row items-center justify-between gap-3 mt-4">
-          <SearchCampaign campaigns={events} setSortedCampaigns={setSortedEvents} />
-          <SortButton handleSort={handleSort} sortOrder={sortOrder} />
-        </div>
-        <EventCard marathons={sortedEvents} />
-        <div className="flex justify-center mt-8">
-          <div className="btn-group ">
-            <button
-              onClick={() => handlePageChange(currentPage - 1)}
-              className={`btn mr-2 ${currentPage === 1 ? "btn-disabled" : "btn-outline"}`}
-            >
-              «
-            </button>
-            {Array.from({ length: totalPages }, (_, index) => (
+    <div className="bg-gradient-to-bl from-lime-100 via-lime-200 to-lime-50 dark:from-gray-800 dark:via-gray-900 dark:to-gray-800">
+      <div className=" pt-10 pb-16 px-4 max-w-7xl mx-auto">
+        <Helmet>
+          <title>MilesAhead | All Marathons</title>
+        </Helmet>
+        <div>
+          <SectionTitle title="All Marathons" subtitle="Explore and support the active campaigns." />
+          <div className="flex max-w-5xl mx-auto flex-col md:flex-row items-center justify-between gap-3 mt-4">
+            <SearchCampaign campaigns={events} setSortedCampaigns={setSortedEvents} />
+            <SortButton handleSort={handleSort} sortOrder={sortOrder} />
+          </div>
+          <EventCard marathons={sortedEvents} />
+          <div className="flex justify-center mt-8">
+            <div className="btn-group ">
               <button
-                key={index}
-                onClick={() => handlePageChange(index + 1)}
-                className={`btn mr-2 ${currentPage === index + 1 ? "btn-active" : ""}`}
+                onClick={() => handlePageChange(currentPage - 1)}
+                className={`btn mr-2 ${currentPage === 1 ? "btn-disabled" : "btn-outline"}`}
               >
-                {index + 1}
+                «
               </button>
-            ))}
-            <button
-              onClick={() => handlePageChange(currentPage + 1)}
-              className={`btn ${currentPage === totalPages ? "btn-disabled" : "btn-outline"}`}
-            >
-              »
-            </button>
+              {Array.from({ length: totalPages }, (_, index) => (
+                <button
+                  key={index}
+                  onClick={() => handlePageChange(index + 1)}
+                  className={`btn mr-2 ${currentPage === index + 1 ? "btn-active" : ""}`}
+                >
+                  {index + 1}
+                </button>
+              ))}
+              <button
+                onClick={() => handlePageChange(currentPage + 1)}
+                className={`btn ${currentPage === totalPages ? "btn-disabled" : "btn-outline"}`}
+              >
+                »
+              </button>
+            </div>
           </div>
         </div>
       </div>

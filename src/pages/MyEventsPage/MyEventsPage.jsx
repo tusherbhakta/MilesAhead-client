@@ -104,7 +104,7 @@ const MyEventsPage = () => {
   );
 
   return (
-    <div className="py-10">
+    <div className="py-10 bg-gradient-to-tr from-lime-100 via-lime-200 to-lime-50 dark:from-gray-800 dark:via-gray-900 dark:to-gray-800 ">
       <Helmet>
         <title>MilesAhead | My Marathons</title>
       </Helmet>

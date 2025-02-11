@@ -145,7 +145,7 @@ const MyRegistrationPage = () => {
     useTable({ columns, data });
 
   return (
-    <div className="py-10 bg-gray-50 dark:bg-gray-900">
+    <div className="py-10 bg-gradient-to-bl from-lime-100 via-lime-200 to-lime-50 dark:from-gray-800 dark:via-gray-900 dark:to-gray-800 dark:bg-gray-900">
       <Helmet>
         <title>MilesAhead | My Registrations</title>
       </Helmet>
@@ -177,7 +177,7 @@ const MyRegistrationPage = () => {
             >
               <thead>
                 {headerGroups.map((headerGroup) => (
-                  <tr {...headerGroup.getHeaderGroupProps()} className="bg-gray-200 dark:bg-gray-800">
+                  <tr {...headerGroup.getHeaderGroupProps()} className="bg-lime-50 dark:bg-gray-800">
                     {headerGroup.headers.map((column) => (
                       <th
                         {...column.getHeaderProps()}
