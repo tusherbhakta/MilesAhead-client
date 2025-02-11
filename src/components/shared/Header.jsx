@@ -83,7 +83,7 @@ const Header = () => {
         }
         onClick={closeDropdown}
       >
-        About Us
+        About
       </NavLink>
     </>
   );
