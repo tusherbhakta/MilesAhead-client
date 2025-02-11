@@ -36,7 +36,7 @@ const AboutUs = () => {
 
         <div className="bg-white shadow-md p-6 rounded-2xl flex flex-col items-center text-center">
           <FaRocket className="text-5xl text-green-500" />
-          <h2 className="text-xl font-semibold mt-4">Our Mission</h2>
+          <h2 className="text-xl font-semibold mt-4">What we want</h2>
           <p className="text-gray-600 mt-2">
             To revolutionize industries with cutting-edge solutions and user-centric experiences.
           </p>

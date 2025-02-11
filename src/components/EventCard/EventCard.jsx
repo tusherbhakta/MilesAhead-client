@@ -69,7 +69,7 @@ const EventCard = ({ marathons }) => {
                             {/* Learn More Button */}
                             <Link
                                 to={`/events/details/${marathon._id}`}
-                                className="mt-4 block w-full text-center bg-lime-600 text-white font-bold py-2 rounded-lg shadow-lg hover:bg-lime-700 transition-all duration-300"
+                                className="mt-4 block w-full text-center bg-lime-300 text-gray-600 hover:text-white font-bold py-2 rounded-lg shadow-lg hover:bg-lime-600 transition-all duration-300"
                             >
                                 Learn More
                             </Link>

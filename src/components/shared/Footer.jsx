@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-10 border-t-2 border-t-slate-950 dark:border-t-slate-600">
+    <footer className="bg-lime-50 text-gray-800 py-10  dark:border-t-slate-600">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-6 lg:px-12">
         {/* About Section */}
         <div>
-          <h2 className="text-2xl font-bold text-lime-400 mb-4">MilesAhead</h2>
-          <p className="text-gray-400 mb-6 text-justify">
+          <h2 className="text-2xl font-bold text-lime-700 mb-4">MilesAhead</h2>
+          <p className="text-gray-600 mb-6 text-justify">
             Join us in celebrating fitness, endurance, and community. Whether you're running to beat your personal best or to support a meaningful cause, every step matters. Let’s cross the finish line together!
           </p>
           <div className="flex space-x-4">
@@ -49,25 +49,25 @@ const Footer = () => {
 
         {/* Quick Links Section */}
         <div>
-          <h3 className="text-lg font-bold text-lime-400 mb-4">Quick Links</h3>
+          <h3 className="text-lg font-bold text-lime-700 mb-4">Quick Links</h3>
           <ul className="space-y-2">
             <li>
-              <Link to="/" className="text-gray-400 hover:text-lime-400">
+              <Link to="/" className="text-gray-600 hover:text-lime-400">
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/marathons" className="text-gray-400 hover:text-lime-400">
+              <Link to="/marathons" className="text-gray-600 hover:text-lime-400">
                 Upcoming Events
               </Link>
             </li>
             <li>
-              <Link to="/" className="text-gray-400 hover:text-lime-400">
+              <Link to="/" className="text-gray-600 hover:text-lime-400">
                 About Us
               </Link>
             </li>
             <li>
-              <Link to="/register" className="text-gray-400 hover:text-lime-400">
+              <Link to="/register" className="text-gray-600 hover:text-lime-400">
                 Join now
               </Link>
             </li>
@@ -76,8 +76,8 @@ const Footer = () => {
 
         {/* Newsletter Section */}
         <div>
-          <h3 className="text-lg font-bold text-lime-400 mb-4">Stay Updated</h3>
-          <p className="text-gray-400 mb-4">
+          <h3 className="text-lg font-bold text-lime-700 mb-4">Stay Updated</h3>
+          <p className="text-gray-600 mb-4">
             Subscribe to our newsletter to get the latest marathon news and updates.
           </p>
           <form className="flex">
@@ -97,14 +97,14 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <div className="border-t border-gray-700 mt-10 py-4">
+      <div className=" mt-10 py-4">
         <div className="container mx-auto flex justify-between items-center px-6 lg:px-12">
-          <p className="text-sm text-gray-400">© 2025 MilesAhead. All rights reserved.</p>
+          <p className="text-sm text-gray-800">© 2025 MilesAhead. All rights reserved.</p>
           <nav className="flex space-x-4">
-            <a href="/privacy-policy" className="text-gray-400 hover:text-lime-400">
+            <a href="/privacy-policy" className="text-gray-800 hover:text-lime-700">
               Privacy Policy
             </a>
-            <a href="/terms-of-service" className="text-gray-400 hover:text-lime-400">
+            <a href="/terms-of-service" className="text-gray-800 hover:text-lime-700">
               Terms of Service
             </a>
           </nav>

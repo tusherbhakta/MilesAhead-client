@@ -21,14 +21,14 @@ const EventCardImg = ({ marathons }) => {
                     </div>
 
                     {/* Title Section */}
-                    <div className="p-4 text-center bg-lime-200">
+                    <div className="p-4 text-center bg-lime-300">
                         <h3 className="text-lg font-bold text-gray-500 truncate group-hover:text-gray-800 transition-colors duration-300">
                             {marathon.title}
                         </h3>
                     </div>
 
                     {/* Hover Details Section */}
-                    <div className="absolute bottom-0 left-0 w-full bg-lime-200 text-gray-500 dark:text-gray-100 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 p-6">
+                    <div className="absolute bottom-0 left-0 w-full bg-lime-200 text-gray-600 dark:text-gray-500 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 p-6">
                         <h3 className="text-xl font-bold mb-4 truncate">{marathon.title}</h3>
                         <p className="text-sm leading-relaxed mb-4">{marathon.description}</p>
 

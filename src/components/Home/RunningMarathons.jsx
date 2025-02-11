@@ -24,7 +24,7 @@ const RunningMarathons = () => { // Default limit to 6
     }, []);
 
     return (
-        <section className="bg-gray-100 dark:bg-gray-900">
+        <section className="bg-lime-50 dark:bg-gray-900">
             <div className="py-10 md:py-16 max-w-7xl mx-auto px-4">
                 <SectionTitle title="Running Marathons" subtitle="Explore and Join Our Marathon Events" />
                 <div className="flex justify-center items-center" >

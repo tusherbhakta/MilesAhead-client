@@ -85,9 +85,11 @@ const UpcomingMarathons = () => {
     
 
     return (
-        <section className="mt-10 md:mt-16 max-w-7xl mx-auto px-4">
+        <section className="bg-lime-50 dark:bg-gray-900 ">
+            <div className="pt-10 md:pt-16 max-w-7xl mx-auto px-4" >
             <SectionTitle title="Upcoming Marathons" subtitle="Join Our Upcoming Marathon Events" />
             <EventCardImg marathons={marathons} />
+            </div>
         </section>
     );
 };
