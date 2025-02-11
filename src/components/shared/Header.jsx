@@ -11,9 +11,6 @@ const Header = () => {
   const navigate = useNavigate();
   const [isDropdownVisible, setDropdownVisible] = useState(false);
 
-
-
-
   const toggleDropdown = () => {
     setDropdownVisible((prev) => !prev);
   };
@@ -43,38 +40,35 @@ const Header = () => {
         All Marathons
       </NavLink>
       {user && (
-        <NavLink
-          to="/add-marathon"
-          className={({ isActive }) =>
-            `px-3 py-2 text-xs md:text-sm lg:text-md font-semibold rounded mr-2 ${isActive ? 'bg-lime-600 text-white' : 'bg-transparent dark:text-gray-200'}`
-          }
-          onClick={closeDropdown}
-        >
-          Add Marathon
-        </NavLink>
-      )}
-      {user && (
-        <NavLink
-          to="/my-events"
-          className={({ isActive }) =>
-            `px-3 py-2 text-xs md:text-sm lg:text-md font-semibold rounded mr-2 ${isActive ? 'bg-lime-600 text-white' : 'bg-transparent dark:text-gray-200'}`
-          }
-          onClick={closeDropdown}
-        >
-          My Marathons
-        </NavLink>
-      )}
-      {user && (
-        <NavLink
-          to="/my-registrations"
-          className={({ isActive }) =>
-            `px-3 py-2 text-xs md:text-sm lg:text-md font-semibold rounded mr-2 ${isActive ? 'bg-lime-600 text-white' : 'bg-transparent dark:text-gray-200'}`
-          }
-          onClick={closeDropdown}
-        >
-          My Registrations
-        </NavLink>
-        
+        <>
+          <NavLink
+            to="/add-marathon"
+            className={({ isActive }) =>
+              `px-3 py-2 text-xs md:text-sm lg:text-md font-semibold rounded mr-2 ${isActive ? 'bg-lime-600 text-white' : 'bg-transparent dark:text-gray-200'}`
+            }
+            onClick={closeDropdown}
+          >
+            Add Marathon
+          </NavLink>
+          <NavLink
+            to="/my-events"
+            className={({ isActive }) =>
+              `px-3 py-2 text-xs md:text-sm lg:text-md font-semibold rounded mr-2 ${isActive ? 'bg-lime-600 text-white' : 'bg-transparent dark:text-gray-200'}`
+            }
+            onClick={closeDropdown}
+          >
+            My Marathons
+          </NavLink>
+          <NavLink
+            to="/my-registrations"
+            className={({ isActive }) =>
+              `px-3 py-2 text-xs md:text-sm lg:text-md font-semibold rounded mr-2 ${isActive ? 'bg-lime-600 text-white' : 'bg-transparent dark:text-gray-200'}`
+            }
+            onClick={closeDropdown}
+          >
+            My Registrations
+          </NavLink>
+        </>
       )}
       <NavLink
         to="/about"
@@ -89,16 +83,12 @@ const Header = () => {
   );
 
   return (
-    <div className="bg-lime-50  dark:bg-gray-900  shadow-md dark:shadow-gray-700 sticky top-0 z-20 py-2">
+    <div className="bg-lime-50 dark:bg-gray-900 shadow-md dark:shadow-gray-700 sticky top-0 z-20 py-2">
       <div className="navbar max-w-7xl mx-auto">
         <div className="navbar-start items-center">
-          <div className="lg:hidden ">
+          <div className="lg:hidden">
             <div className="dropdown">
-
-              <button
-                onClick={toggleDropdown}
-                className="btn btn-sm btn-ghost"
-              >
+              <button onClick={toggleDropdown} className="btn btn-sm btn-ghost">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5 dark:text-gray-200"
@@ -106,41 +96,27 @@ const Header = () => {
                   viewBox="0 0 24 24"
                   stroke="currentColor"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 6h16M4 12h8m-8 6h16"
-                  />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
                 </svg>
               </button>
               {isDropdownVisible && (
-                <ul
-                  className="menu menu-sm dropdown-content bg-base-100 dark:bg-gray-800 dark:text-gray-200 rounded-box z-[1] mt-3 w-52 p-2 shadow"
-                  onClick={closeDropdown}
-                >
+                <ul className="menu menu-sm dropdown-content bg-base-100 dark:bg-gray-800 dark:text-gray-200 rounded-box z-[1] mt-3 w-52 p-2 shadow" onClick={closeDropdown}>
                   {links}
                 </ul>
               )}
             </div>
           </div>
-          <h2
-            onClick={() => navigate("/")}
-            className="text-2xl xl:text-3xl font-extrabold cursor-pointer flex items-center gap-2 dark:text-gray-200"
-          >
+          <h2 onClick={() => navigate("/")} className="text-2xl xl:text-3xl font-extrabold cursor-pointer flex items-center gap-2 dark:text-gray-200">
             <span>
               <img className="w-16 h-16 hidden md:block items-center" src={logo} alt="" />
             </span>
-            <span className="text-lime-700 dark:text-lime-500 italic">
-              MilesAhead
-            </span>
+            <span className="text-lime-700 dark:text-lime-500 italic">MilesAhead</span>
           </h2>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end gap-2">
-
           <NavLink
             to={user ? "/profile" : "/register"}
             className={({ isActive }) =>
@@ -150,12 +126,8 @@ const Header = () => {
             {user ? "Dashboard" : "Register"}
           </NavLink>
           {user ? (
-            <ProfileTooltip
-              img={user.displayURL}
-              name={user.displayName}
-              email={user.email}
-            />
-          ) : (<>
+            <ProfileTooltip img={user.displayURL} name={user.displayName} email={user.email} />
+          ) : (
             <NavLink
               to="/login"
               className={({ isActive }) =>
@@ -164,9 +136,8 @@ const Header = () => {
             >
               Login
             </NavLink>
-            <ThemeToggle />
-          </>
           )}
+          <ThemeToggle />
         </div>
       </div>
     </div>
@@ -174,4 +145,3 @@ const Header = () => {
 };
 
 export default Header;
-
