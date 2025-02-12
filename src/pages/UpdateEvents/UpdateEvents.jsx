@@ -82,20 +82,20 @@ const UpdateEvents = () => {
   if (!campaignDetails) {
     return (
       <div className="flex justify-center items-center">
-        <span className="loading loading-dots loading-lg"></span>
+        <span className="loading loading-spinner loading-lg"></span>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col items-center justify-center py-10 px-4">
+    <div className="min-h-screen bg-lime-100 dark:bg-gray-900 flex flex-col items-center justify-center py-10 px-4">
       <Helmet>
         <title>MilesAhead | Update Marathon</title>
       </Helmet>
       <h1 className="text-3xl font-bold text-lime-600 dark:text-lime-400 text-center mb-8">
         Update Marathon
       </h1>
-      <div className="w-full max-w-3xl bg-white dark:bg-gray-800 rounded-lg shadow-lg p-4 sm:p-10">
+      <div className="w-full max-w-3xl bg-lime-50 dark:bg-gray-800 rounded-lg shadow-lg p-4 sm:p-10">
         <form onSubmit={handleSubmit} className="space-y-6 dark:text-white">
           <div className="space-y-4">
             <div>
